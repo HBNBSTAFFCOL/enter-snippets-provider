@@ -1,21 +1,70 @@
-### Repositorio de Snippets para Portal Enter.co
+### Enter.co Portal Snippets Repository
 
-Este repositorio almacena una colección de snippets de código para diversas integraciones, funcionalidades, diseño y utilidades destinadas al portal Enter.co. Los snippets están organizados en carpetas para una fácil navegación y referencia.
+Welcome to the Enter.co Portal Snippets Repository!
 
-#### Estructura de Carpetas:
+This repository houses a comprehensive collection of code snippets tailored for various integrations, functionalities, design elements, and utilities specifically crafted for the Enter.co portal. These snippets are meticulously organized into folders for effortless navigation and reference.
 
-- **integraciones:** Contiene snippets de código para diversas integraciones con servicios externos o herramientas relacionadas con Enter.co.
+#### Folder Structure:
 
-- **funcionalidades:** En esta carpeta se encuentran snippets que proporcionan funcionalidades específicas para mejorar la experiencia del usuario en el portal.
+- **integrations:** This folder contains code snippets for a myriad of integrations with external services or tools pertinent to Enter.co.
+  - **actives:** Active integration snippets reside here, ready for implementation.
+  - **inactives:** Inactive integration snippets, perhaps for deprecated services or functionalities, are stored here.
 
-- **diseño:** Aquí se agrupan snippets relacionados con el diseño y la presentación visual del portal Enter.co.
+- **functionalities:** In this section, you'll discover snippets providing specific functionalities aimed at enhancing the user experience within the Enter.co portal.
+  - **actives:** Active functionality snippets are available here.
+  - **inactives:** Inactive functionality snippets can be found in this directory.
 
-- **utilidades:** Contiene snippets de código que proporcionan utilidades diversas, como funciones de ayuda, herramientas de manipulación de datos, entre otros.
+- **design:** Here, you'll find snippets related to the design and visual presentation aspects of the Enter.co portal.
+  - **actives:** Active design-related snippets can be accessed here.
+  - **inactives:** Inactive design-related snippets are stored here.
 
-#### Tipo Principal de Snippets:
+- **utilities:** This folder hosts snippets of code offering diverse utilities such as helper functions, data manipulation tools, and more.
+  - **actives:** Active utility snippets reside in this directory.
+  - **inactives:** Inactive utility snippets are located here.
 
-Los snippets en este repositorio están principalmente orientados a HTML, aunque pueden incluirse también fragmentos de código en otros lenguajes o tecnologías web.
+#### Tree Structure:
+tree example of contet:
 
-#### Aviso de Sensibilidad:
+```bash
+.
+├── integrations
+│   ├── actives
+│   │   ├── snippet1.js
+│   │   ├── snippet2.js
+│   │   └── ...
+│   └── inactives
+│       ├── deprecated.js
+│       └── old_integration.js
+├── functionalities
+│   ├── actives
+│   │   ├── feature1.html
+│   │   ├── feature2.html
+│   │   └── ...
+│   └── inactives
+│       ├── removed_feature.html
+│       └── old_functionality.html
+├── design
+│   ├── actives
+│   │   ├── style1.css
+│   │   ├── style2.css
+│   │   └── ...
+│   └── inactives
+│       ├── old_style.css
+│       └── deprecated_design.html
+└── utilities
+    ├── actives
+    │   ├── helper_functions.js
+    │   ├── data_tools.js
+    │   └── ...
+    └── inactives
+        ├── old_utility.js
+        └── deprecated_tool.js
+```
 
-Es importante destacar que los snippets almacenados en este repositorio no contienen información sensible. Se han eliminado conscientemente todos los datos que podrían comprometer la seguridad o la privacidad del portal Enter.co.
+#### Primary Snippet Type:
+
+The snippets in this repository predominantly focus on HTML. However, snippets in other languages or web technologies may also be included to cater to diverse needs.
+
+#### Sensitivity Notice:
+
+It's imperative to note that the snippets stored in this repository do not contain any sensitive information. All potentially sensitive data has been deliberately removed to uphold the security and privacy standards of the Enter.co portal.
